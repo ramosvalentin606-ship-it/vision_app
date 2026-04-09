@@ -14,7 +14,7 @@ st.set_page_config(page_title="Analisis de imagen", layout="centered", initial_s
 st.title("Análisis de Imagen:🤖🏞️")
 st.title("Pon lo que tu quieras")
 image = Image.open('Mbappe_Dictador.JPEG')
-    st.image(image, width=350)
+st.image(image, width=350)
 ke = st.text_input('Ingresa tu Clave')
 os.environ['OPENAI_API_KEY'] = ke
 
